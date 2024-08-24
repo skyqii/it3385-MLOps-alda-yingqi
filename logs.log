@@ -1502,3 +1502,56 @@
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2024-08-25 01:58:43,179:INFO:Initializing load_model()
 2024-08-25 01:58:43,179:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)
+2024-08-25 01:59:07,880:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 01:59:07,880:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 01:59:07,880:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 01:59:07,880:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 01:59:10,391:INFO:Initializing load_model()
+2024-08-25 01:59:10,392:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)
+2024-08-25 02:00:39,678:INFO:Initializing predict_model()
+2024-08-25 02:00:39,678:INFO:predict_model(self=<pycaret.anomaly.oop.AnomalyExperiment object at 0x0000017FB8C61090>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['AMT'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['DIV_NAME', 'MERCHANT', 'CAT_DESC',
+                                             'TRANS_DT'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['DIV_NAME', 'MERCHANT', 'CAT_DESC',
+                                             'TRANS_DT'],
+                                    transformer=OneHotEncoder(cols=['DIV_NAME',
+                                                                    'MERCHANT',
+                                                                    'CAT_DESC',
+                                                                    'TRANS_DT'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0))]), ml_usecase=None)
+2024-08-25 02:00:39,678:INFO:Set up data.
+2024-08-25 02:03:21,157:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 02:03:21,157:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 02:03:21,157:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 02:03:21,157:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 02:03:23,296:INFO:Initializing load_model()
+2024-08-25 02:03:23,296:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)
+2024-08-25 02:03:37,710:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 02:03:37,710:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 02:03:37,710:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 02:03:37,710:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 02:03:39,889:INFO:Initializing load_model()
+2024-08-25 02:03:39,889:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)

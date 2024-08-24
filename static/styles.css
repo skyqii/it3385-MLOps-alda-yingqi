@@ -42,7 +42,7 @@ input[type="text"], select {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-sizing: border-box;
-    appearance: none; /* Hide default dropdown arrow */
+    appearance: none;
 }
 
 /* Button styling */
@@ -73,7 +73,7 @@ p#result {
     color: #333;
 }
 
-/* Optional styling to add a custom dropdown arrow */
+/* Dropdown arrow */
 select {
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path fill="none" stroke="%23666" stroke-width="1" d="M1 1l4 4 4-4"/></svg>') no-repeat right 10px center;
     background-color: #fff;

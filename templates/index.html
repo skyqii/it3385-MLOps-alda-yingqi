@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Anomaly Detection on Employees Expense Records</h1>
+    <h1>Anomaly Detection on Employees Expense Records in the Education Department</h1>
     <form id="predictionForm" action="/predict" method="POST">
-        
+        <!-- dropdown list for the division name -->
         <label for="div_name">Division Name:</label>
         <select id="div_name" name="div_name" required="required">
             <option value="" disabled selected>Select Division</option>
@@ -34,15 +34,19 @@
             <option value="ADULT EDUCATION AND WORK FORCE">ADULT EDUCATION AND WORK FORCE</option>
         </select><br><br>
         
+        <!-- input box for merchant (too many merchants for dropdown list) -->
         <label for="merchant">Merchant:</label>
         <input type="text" id="merchant" name="merchant" placeholder="AMAZON.COM" required="required"/><br><br>
 
+        <!-- likewise, too many categories for dropdown list -->
         <label for="cat_desc">Category Description:</label>
         <input type="text" id="cat_desc" name="cat_desc" placeholder="LODGING" required="required"/><br><br>
         
+        <!-- input the date in month/day/year format -->
         <label for="trans_dt">Transaction Date:</label>
         <input type="text" id="trans_dt" name="trans_dt" placeholder="M/D/YYYY" required="required"/><br><br>
 
+        <!-- input expense amount -->
         <label for="amt">Amount ($):</label>
         <input type="text" id="amt" name="amt" placeholder="100" required="required"/><br><br>
         
@@ -50,6 +54,7 @@
     </form>
 
     <h2>Prediction Result:</h2>
+    <!-- variable returned by the flask application -->
     <p>{{prediction_text}}</p>
 
 </body>
