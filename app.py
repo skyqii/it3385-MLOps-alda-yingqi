@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 import numpy as np
 import pandas as pd
-from pycaret.anomaly import load_model
+from pycaret.anomaly import *
 
 app = Flask(__name__)
 
@@ -29,18 +29,14 @@ def predict():
     print(f"Data received: {data1}, {data2}, {data3}, {data4}, {data5}")
 
     # Convert the input data into a DataFrame with proper column names
-    # input_data = pd.DataFrame([[data1, data2, data3, data4, data5]],
-    #                           columns=['DIV_NAME', 'MERCHANT', 'CAT_DESC', 'TRANS_DT', 'AMT'])
-    
-    data = np.array([data1, data2, data3, data4, data5])
-
-    input_data = pd.DataFrame(data)
+    input_data = pd.DataFrame([[data1, data2, data3, data4, data5]],
+                              columns=['DIV_NAME', 'MERCHANT', 'CAT_DESC', 'TRANS_DT', 'AMT'])
 
     # Log the DataFrame for debugging
     print("Input DataFrame:\n", input_data)
 
     # Make predictions using the model
-    prediction_df = model.predict(input_data)
+    prediction_df = predict_model(model,input_data)
 
     # Log the prediction result for debugging
     print("Prediction result:\n", prediction_df)

@@ -1,6 +1,4 @@
 import pandas as pd 
-import numpy as np 
-import pickle 
  
 import pycaret 
 pycaret.__version__ 
@@ -24,5 +22,4 @@ s = setup(data,
 knn=create_model('knn') 
 # plot_model(knn) 
 
-with open('anomaly_detection.pkl', 'wb') as file:
-    pickle.dump(knn, file)
+save_model(knn, 'anomaly_detection')
