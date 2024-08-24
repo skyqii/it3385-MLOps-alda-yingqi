@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anomaly Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Anomaly Detection on Employees Expense Records</h1>
+    <form id="predictionForm">
+        <!-- Add input fields for each feature your model expects -->
+        <label for="div_name">Division Name:</label>
+        <input type="text" id="div_name" name="div_name" placeholder="DEPARTMENT OF EDUCATION" required="required"/><br><br>
+        
+        <label for="merchant">Merchant:</label>
+        <input type="text" id="merchant" name="merchant" placeholder="AMAZON.COM" required="required"/><br><br>
+
+        <label for="cat_desc">Category Description:</label>
+        <input type="text" id="cat_desc" name="cat_desc" placeholder="LODGING" required="required"/><br><br>
+        
+        <label for="trans_dt">Transaction Date:</label>
+        <input type="text" id="trans_dt" name="trans_dt" placeholder="M/D/YYYY" required="required"/><br><br>
+
+        <label for="amt">Amount ($):</label>
+        <input type="text" id="amt" name="amt" placeholder="100" required="required"/><br><br>
+        
+        <button type="submit">Detect</button>
+    </form>
+
+    <h2>Prediction Result:</h2>
+    <p>{{prediction_text}}</p>
+
+</body>
+</html>
