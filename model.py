@@ -13,9 +13,6 @@ data['DIV_NAME'] = data['DIV_NAME'].apply(lambda x: x.upper())
 data['CAT_DESC'] = data['CAT_DESC'].apply(lambda x: x.upper()) 
 data['AMT'] = data['AMT'].abs() 
 data['MERCHANT'] = data['MERCHANT'].apply(lambda x: x.upper()) 
-
-divNames = data['DIV_NAME'].unique().tolist()
-catDesc = data['CAT_DESC'].unique().tolist()
  
  
 from pycaret.anomaly import * 
@@ -25,7 +22,7 @@ s = setup(data,
  
  
 knn=create_model('knn') 
-plot_model(knn) 
+# plot_model(knn) 
 
-save_model(knn, 'anomaly_detection')
- 
+with open('anomaly_detection.pkl', 'wb') as file:
+    pickle.dump(knn, file)

@@ -8,10 +8,31 @@
 </head>
 <body>
     <h1>Anomaly Detection on Employees Expense Records</h1>
-    <form id="predictionForm">
-        <!-- Add input fields for each feature your model expects -->
+    <form id="predictionForm" action="/predict" method="POST">
+        
         <label for="div_name">Division Name:</label>
-        <input type="text" id="div_name" name="div_name" placeholder="DEPARTMENT OF EDUCATION" required="required"/><br><br>
+        <select id="div_name" name="div_name" required="required">
+            <option value="" disabled selected>Select Division</option>
+            <option value="DEPARTMENT OF EDUCATION">DEPARTMENT OF EDUCATION</option>
+            <option value="EDUCATION BLOCK GRANTS">EDUCATION BLOCK GRANTS</option>
+            <option value="SPECIAL NEEDS PROGRAMS">SPECIAL NEEDS PROGRAMS</option>
+            <option value="ADVISORY COUNCIL">ADVISORY COUNCIL</option>
+            <option value="TRANSPORTATION">TRANSPORTATION</option>
+            <option value="DRIVER TRAINING">DRIVER TRAINING</option>
+            <option value="OTHER ITEMS">OTHER ITEMS</option>
+            <option value="E EDUCATION BLOCK GRANTS">E EDUCATION BLOCK GRANTS</option>
+            <option value="E TRANSPORTATION">E TRANSPORTATION</option>
+            <option value="ACADEMIC SUPPORT">ACADEMIC SUPPORT</option>
+            <option value="OPERATIONS SUPPORT">OPERATIONS SUPPORT</option>
+            <option value="OFFICE OF EARLY LEARNING">OFFICE OF EARLY LEARNING</option>
+            <option value="OFFICE OF THE SECRETARY">OFFICE OF THE SECRETARY</option>
+            <option value="STUDENT SUPPORT">STUDENT SUPPORT</option>
+            <option value="PROFESSIONAL STANDARDS BOARD">PROFESSIONAL STANDARDS BOARD</option>
+            <option value="STATE BOARD OF EDUCATION">STATE BOARD OF EDUCATION</option>
+            <option value="PUBLIC SCHOOL TRANSPORTATION">PUBLIC SCHOOL TRANSPORTATION</option>
+            <option value="EDUCATOR SUPPORT">EDUCATOR SUPPORT</option>
+            <option value="ADULT EDUCATION AND WORK FORCE">ADULT EDUCATION AND WORK FORCE</option>
+        </select><br><br>
         
         <label for="merchant">Merchant:</label>
         <input type="text" id="merchant" name="merchant" placeholder="AMAZON.COM" required="required"/><br><br>
@@ -30,6 +51,7 @@
 
     <h2>Prediction Result:</h2>
     <p>{{prediction_text}}</p>
+    <p>TEST</p>
 
 </body>
 </html>

@@ -28,20 +28,21 @@ form {
     margin-bottom: 20px;
 }
 
-/* Input fields */
+/* Input fields and dropdown styling */
 label {
     font-size: 14px;
     color: #555;
     font-weight: bold;
 }
 
-input[type="text"] {
+input[type="text"], select {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-sizing: border-box;
+    appearance: none; /* Hide default dropdown arrow */
 }
 
 /* Button styling */
@@ -70,4 +71,12 @@ h2 {
 p#result {
     font-size: 16px;
     color: #333;
+}
+
+/* Optional styling to add a custom dropdown arrow */
+select {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5"><path fill="none" stroke="%23666" stroke-width="1" d="M1 1l4 4 4-4"/></svg>') no-repeat right 10px center;
+    background-color: #fff;
+    background-size: 10px;
+    background-position-x: calc(100% - 10px);
 }
