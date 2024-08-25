@@ -1,13 +1,25 @@
-# it3385 MLOps
- 
-A README is often the first item a visitor will see when visiting your repository. README files typically include information on:
 
-What the project does
+# Project Title
 
-Why the project is useful
+In this assignment, we aim to build machine learning models (classification and anomaly detection) and deploy them using a web application. We build and deploy a front-end web application with realtime prediction and we set up development and deployment environment according to MLOps Lifecycle.
 
-How users can get started with the project
+## Deployment
 
-Where users can get help with your project
+To run this project
 
-Who maintains and contributes to the project
+Alda
+```bash
+  xxx
+```
+Ying Qi
+```bash
+  xxx
+```
+
+
+
+## Authors
+
+- [@skyqii](https://www.github.com/skyqii) (Ying Qi 221948R)
+- [@alda-almira](https://www.github.com/alda-almira) (Alda 224526L)
+
