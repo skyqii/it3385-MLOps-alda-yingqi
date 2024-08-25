@@ -5,6 +5,17 @@ A README is often the first item a visitor will see when visiting your repositor
 A readme file for the deployment guide & folder structure and an URL to the
 web app
 
+A deployment guide is a step-by-step document that outlines the process of installing, configuring, and making a software application or system operational in a specific environment. It's essentially a roadmap for successfully deploying a product or service.   
+
+Key components of a deployment guide typically include:
+
+Prerequisites: Necessary hardware, software, and network requirements.   
+Installation instructions: Detailed steps to install the application.   
+Configuration settings: Guidance on customizing the application to specific needs.
+Testing procedures: Instructions for verifying the installation and functionality.
+Troubleshooting tips: Solutions for common issues that may arise during deployment.
+Security considerations: Best practices for protecting the deployed system.
+
 What the project does
 
 
