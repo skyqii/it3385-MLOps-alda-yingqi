@@ -1,0 +1,130 @@
+<!-- Name: Alda Almira -->
+<!-- Admin No.: 224526L -->
+<!-- Module Group: BA2201 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushroom Edibility Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        select, input[type="submit"] {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Mushroom Edibility Predictor</h1>
+    <form action="/predict" method="post">
+        <label for="cap-shape">Cap Shape:</label>
+        <select name="cap-shape" id="cap-shape">
+            <option value="bell">Bell</option>
+            <option value="conical">Conical</option>
+            <option value="convex">Convex</option>
+            <option value="flat">Flat</option>
+            <option value="knobbed">Knobbed</option>
+            <option value="sunken">Sunken</option>
+        </select>
+
+        <label for="cap-surface">Cap Surface:</label>
+        <select name="cap-surface" id="cap-surface">
+            <option value="fibrous">Fibrous</option>
+            <option value="grooves">Grooves</option>
+            <option value="scaly">Scaly</option>
+            <option value="smooth">Smooth</option>
+        </select>
+
+        <label for="cap-color">Cap Color:</label>
+        <select name="cap-color" id="cap-color">
+            <option value="brown">Brown</option>
+            <option value="buff">Buff</option>
+            <option value="cinnamon">Cinnamon</option>
+            <option value="gray">Gray</option>
+            <option value="green">Green</option>
+            <option value="pink">Pink</option>
+            <option value="purple">Purple</option>
+            <option value="red">Red</option>
+            <option value="white">White</option>
+            <option value="yellow">Yellow</option>
+        </select>
+
+        <label for="bruises">Bruises:</label>
+        <select name="bruises" id="bruises">
+            <option value="bruises">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <label for="odor">Odor:</label>
+        <select name="odor" id="odor">
+            <option value="almond">Almond</option>
+            <option value="anise">Anise</option>
+            <option value="creosote">Creosote</option>
+            <option value="fishy">Fishy</option>
+            <option value="foul">Foul</option>
+            <option value="musty">Musty</option>
+            <option value="none">None</option>
+            <option value="pungent">Pungent</option>
+            <option value="spicy">Spicy</option>
+        </select>
+
+        <!-- Add other inputs for relevant features -->
+        <label for="gill-size">Gill Size:</label>
+        <select name="gill-size" id="gill-size">
+            <option value="broad">Broad</option>
+            <option value="narrow">Narrow</option>
+        </select>
+
+        <label for="population">Population:</label>
+        <select name="population" id="population">
+            <option value="abundant">Abundant</option>
+            <option value="clustered">Clustered</option>
+            <option value="numerous">Numerous</option>
+            <option value="scattered">Scattered</option>
+            <option value="several">Several</option>
+            <option value="solitary">Solitary</option>
+        </select>
+
+        <input type="submit" value="Predict Edibility">
+    </form>
+</div>
+
+</body>
+</html>

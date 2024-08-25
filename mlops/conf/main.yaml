@@ -9,8 +9,6 @@ ad_model: load_model('anomaly_detection')
 
 ad_data : pd.read_csv('03_transaction_records.csv')
 
-class_model: load_model('mushroom-pipeline')
+class_pkl: pickle.load(open('mushroom-pipeline.pkl', 'rb'))
 
 class_data: pd.read_csv('02_mushroom_species_data.csv')
-
-class_pkl: pickle.load(open('mushroom-pipeline.pkl', 'rb'))
