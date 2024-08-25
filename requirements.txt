@@ -214,7 +214,7 @@ mypy-extensions==1.0.0
 nbclassic==1.0.0
 nbclient==0.8.0
 nbconvert==7.11.0
-nbformat==5.9.3
+nbformat==5.9.2
 nest-asyncio==1.5.7
 networkx==3.2.1
 nltk==3.10.2
