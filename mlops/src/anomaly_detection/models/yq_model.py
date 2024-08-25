@@ -1,4 +1,3 @@
-# python file for building the model as the pkl file is too large to push into GitHub
 # run this file to the get knn model pickle file
 
 import pandas as pd 

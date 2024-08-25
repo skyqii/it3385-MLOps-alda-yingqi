@@ -664,3 +664,13 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2024-08-25 21:45:07,170:INFO:Initializing load_model()
 2024-08-25 21:45:07,170:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)
+2024-08-25 21:48:34,248:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:48:34,248:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:48:34,248:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:48:34,248:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:48:37,009:INFO:Initializing load_model()
+2024-08-25 21:48:37,009:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)
