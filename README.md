@@ -4,7 +4,18 @@ In this assignment, we aim to build machine learning models (classification and 
 
 ## Deployment
 
-To run this project
+To run this project, installations needed:
+```bash
+  pip install pycaret
+```
+```bash
+  pip install hydra
+```
+```bash
+  pip install poetry
+```
+DVC should be installed as an extension in Visual Studio Code.
+
 
 Alda
 ```bash
