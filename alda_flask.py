@@ -34,7 +34,7 @@ def predict():
         gill_size = request.form['gill-size']
         population = request.form['population']
         
-        # Example: create a feature vector for prediction
+        # Create a feature vector for prediction
         features = [cap_shape, cap_surface, cap_color, bruises, odor, gill_size, population]
         
         # Example: Placeholder logic for prediction
