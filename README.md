@@ -6,6 +6,9 @@ In this assignment, we aim to build machine learning models (classification and 
 
 To run this project, installations needed:
 ```bash
+  pip install flask
+```
+```bash
   pip install pycaret
 ```
 ```bash
@@ -25,7 +28,9 @@ DVC should be installed as an extension in Visual Studio Code.
 ```
 ### **Ying Qi**
 ```bash
-  xxx
+  1. Navigate to the Anomaly Detection folder under /src
+  2. Run the yq_app.py Python file in the Terminal
+  3. Enter the values to predict, and get the results.
 ```
 
 
