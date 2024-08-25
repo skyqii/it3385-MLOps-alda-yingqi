@@ -1,28 +1,24 @@
 # it3385 MLOps
- 
-A README is often the first item a visitor will see when visiting your repository. README files typically include information on:
 
-A readme file for the deployment guide & folder structure and an URL to the
-web app
+In this assignment, we aim to build machine learning models (classification and anomaly detection) and deploy them using a web application. We build and deploy a front-end web application with realtime prediction and we set up development and deployment environment according to MLOps Lifecycle.
 
-A deployment guide is a step-by-step document that outlines the process of installing, configuring, and making a software application or system operational in a specific environment. It's essentially a roadmap for successfully deploying a product or service.   
+## Deployment
 
-Key components of a deployment guide typically include:
+To run this project
 
-Prerequisites: Necessary hardware, software, and network requirements.   <br>
-Installation instructions: Detailed steps to install the application.   <br>
-Configuration settings: Guidance on customizing the application to specific needs. <br>
-Testing procedures: Instructions for verifying the installation and functionality. <br>
-Troubleshooting tips: Solutions for common issues that may arise during deployment. <br>
-Security considerations: Best practices for protecting the deployed system. <br>
-
-What the project does
+Alda
+```bash
+  xxx
+```
+Ying Qi
+```bash
+  xxx
+```
 
 
-Why the project is useful
 
-How users can get started with the project
+## Authors
 
-Where users can get help with your project
+- [@skyqii](https://www.github.com/skyqii) (Ying Qi 221948R)
+- [@alda-almira](https://www.github.com/alda-almira) (Alda 224526L)
 
-Who maintains and contributes to the project
