@@ -7,8 +7,8 @@ import pickle
 
 ad_model: load_model('anomaly_detection')
 
-ad_data : pd.read_csv('03_transaction_records.csv')
+ad_data : src\anomaly_detection\03_transaction_records.csv
 
 class_pkl: pickle.load(open('mushroom-pipeline.pkl', 'rb'))
 
-class_data: pd.read_csv('02_mushroom_species_data.csv')
+class_data: src\classification\02_mushroom_species_data.csv
