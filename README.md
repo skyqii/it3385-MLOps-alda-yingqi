@@ -35,6 +35,8 @@ DVC should be installed as an extension in Visual Studio Code.
 ## Video Link
 [Demo Video](https://youtu.be/j_ITsjdmcX0)
 
+## Web Application
+[Anomaly Detection - Ying Qi](https://two21948r-mlops.onrender.com)
 
 ## Authors
 
