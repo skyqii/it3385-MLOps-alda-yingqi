@@ -32,7 +32,8 @@ DVC should be installed as an extension in Visual Studio Code.
   3. Open the server in the browser.
   4. Enter the values to predict, and get the results.
 
-
+## Video Link
+[Demo Video](https://youtu.be/j_ITsjdmcX0)
 
 
 ## Authors
