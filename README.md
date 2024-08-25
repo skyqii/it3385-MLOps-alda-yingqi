@@ -1,17 +1,27 @@
-
-# Project Title
+# it3385 MLOps
 
 In this assignment, we aim to build machine learning models (classification and anomaly detection) and deploy them using a web application. We build and deploy a front-end web application with realtime prediction and we set up development and deployment environment according to MLOps Lifecycle.
 
 ## Deployment
 
-To run this project
+To run this project, installations needed:
+```bash
+  pip install pycaret
+```
+```bash
+  pip install hydra
+```
+```bash
+  pip install poetry
+```
+DVC should be installed as an extension in Visual Studio Code.
 
-Alda
+
+### **Alda**
 ```bash
   xxx
 ```
-Ying Qi
+### **Ying Qi**
 ```bash
   xxx
 ```
@@ -23,3 +33,4 @@ Ying Qi
 - [@skyqii](https://www.github.com/skyqii) (Ying Qi 221948R)
 - [@alda-almira](https://www.github.com/alda-almira) (Alda 224526L)
 
+>>>>>>> 9f1687f5fc6c9338b8db895c17e399eeba382613
