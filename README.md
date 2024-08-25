@@ -17,11 +17,11 @@ To run this project, installations needed:
 DVC should be installed as an extension in Visual Studio Code.
 
 
-**Alda**
+### **Alda**
 ```bash
   xxx
 ```
-**Ying Qi**
+### **Ying Qi**
 ```bash
   xxx
 ```
