@@ -21,17 +21,17 @@ DVC should be installed as an extension in Visual Studio Code.
 
 
 ### **Alda**
-```bash
-  run python alda_flask.py
-  open the webpage to input the values for prediction
-  generate prediction to get the results
-```
+  1. Navigate to the Classification folder under /src
+  2. Run the python alda_flask.py
+  3. Open the webpage to input the values for prediction.
+  4. Generate prediction to get the results.
+
 ### **Ying Qi**
-```bash
   1. Navigate to the Anomaly Detection folder under /src
-  2. Run the yq_app.py Python file in the Terminal
-  3. Enter the values to predict, and get the results.
-```
+  2. Run the yq_app.py Python file in the Terminal.
+  3. Open the server in the browser.
+  4. Enter the values to predict, and get the results.
+
 
 
 
