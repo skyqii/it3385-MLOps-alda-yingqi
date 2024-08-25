@@ -674,3 +674,195 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2024-08-25 21:48:37,009:INFO:Initializing load_model()
 2024-08-25 21:48:37,009:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)
+2024-08-25 21:55:17,499:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:55:17,499:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:55:17,499:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:55:17,500:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:55:19,902:INFO:Initializing load_model()
+2024-08-25 21:55:19,903:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)
+2024-08-25 21:55:23,816:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:55:23,816:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:55:23,816:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:55:23,816:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:55:26,516:INFO:Initializing load_model()
+2024-08-25 21:55:26,516:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)
+2024-08-25 21:55:35,974:INFO:Initializing predict_model()
+2024-08-25 21:55:35,976:INFO:predict_model(self=<pycaret.anomaly.oop.AnomalyExperiment object at 0x000002798FDACC90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['AMT'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['DIV_NAME', 'MERCHANT', 'CAT_DESC',
+                                             'TRANS_DT'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('rare_category_grouping',
+                 TransformerWrapper(include=['DIV_NAME', 'MER...
+                 TransformerWrapper(include=['DIV_NAME', 'MERCHANT', 'CAT_DESC',
+                                             'TRANS_DT'],
+                                    transformer=OneHotEncoder(cols=['DIV_NAME',
+                                                                    'MERCHANT',
+                                                                    'CAT_DESC',
+                                                                    'TRANS_DT'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0))]), ml_usecase=None)
+2024-08-25 21:55:35,976:INFO:Set up data.
+2024-08-25 21:55:35,986:WARNING:C:\Users\yqyew\anaconda3\envs\mlops\Lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2024-08-25 21:55:36,076:WARNING:C:\Users\yqyew\anaconda3\envs\mlops\Lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2024-08-25 21:55:48,553:INFO:Initializing predict_model()
+2024-08-25 21:55:48,553:INFO:predict_model(self=<pycaret.anomaly.oop.AnomalyExperiment object at 0x00000279944D7190>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['AMT'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['DIV_NAME', 'MERCHANT', 'CAT_DESC',
+                                             'TRANS_DT'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('rare_category_grouping',
+                 TransformerWrapper(include=['DIV_NAME', 'MER...
+                 TransformerWrapper(include=['DIV_NAME', 'MERCHANT', 'CAT_DESC',
+                                             'TRANS_DT'],
+                                    transformer=OneHotEncoder(cols=['DIV_NAME',
+                                                                    'MERCHANT',
+                                                                    'CAT_DESC',
+                                                                    'TRANS_DT'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0))]), ml_usecase=None)
+2024-08-25 21:55:48,553:INFO:Set up data.
+2024-08-25 21:55:48,560:WARNING:C:\Users\yqyew\anaconda3\envs\mlops\Lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2024-08-25 21:55:48,656:WARNING:C:\Users\yqyew\anaconda3\envs\mlops\Lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2024-08-25 22:09:52,035:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 22:09:52,035:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 22:09:52,035:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 22:09:52,035:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 22:09:54,438:INFO:Initializing load_model()
+2024-08-25 22:09:54,438:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)
+2024-08-25 22:09:58,376:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 22:09:58,376:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 22:09:58,376:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 22:09:58,376:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 22:10:01,295:INFO:Initializing load_model()
+2024-08-25 22:10:01,295:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)
+2024-08-25 22:10:15,062:INFO:Initializing predict_model()
+2024-08-25 22:10:15,062:INFO:predict_model(self=<pycaret.anomaly.oop.AnomalyExperiment object at 0x0000018C22C91A90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['AMT'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['DIV_NAME', 'MERCHANT', 'CAT_DESC',
+                                             'TRANS_DT'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('rare_category_grouping',
+                 TransformerWrapper(include=['DIV_NAME', 'MER...
+                 TransformerWrapper(include=['DIV_NAME', 'MERCHANT', 'CAT_DESC',
+                                             'TRANS_DT'],
+                                    transformer=OneHotEncoder(cols=['DIV_NAME',
+                                                                    'MERCHANT',
+                                                                    'CAT_DESC',
+                                                                    'TRANS_DT'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0))]), ml_usecase=None)
+2024-08-25 22:10:15,062:INFO:Set up data.
+2024-08-25 22:10:15,074:WARNING:C:\Users\yqyew\anaconda3\envs\mlops\Lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2024-08-25 22:10:15,171:WARNING:C:\Users\yqyew\anaconda3\envs\mlops\Lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2024-08-25 22:10:28,512:INFO:Initializing predict_model()
+2024-08-25 22:10:28,512:INFO:predict_model(self=<pycaret.anomaly.oop.AnomalyExperiment object at 0x0000018C20694610>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['AMT'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['DIV_NAME', 'MERCHANT', 'CAT_DESC',
+                                             'TRANS_DT'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('rare_category_grouping',
+                 TransformerWrapper(include=['DIV_NAME', 'MER...
+                 TransformerWrapper(include=['DIV_NAME', 'MERCHANT', 'CAT_DESC',
+                                             'TRANS_DT'],
+                                    transformer=OneHotEncoder(cols=['DIV_NAME',
+                                                                    'MERCHANT',
+                                                                    'CAT_DESC',
+                                                                    'TRANS_DT'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 KNN(algorithm='auto', contamination=0.05, leaf_size=30, method='largest',
+  metric='minkowski', metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+  radius=1.0))]), ml_usecase=None)
+2024-08-25 22:10:28,512:INFO:Set up data.
+2024-08-25 22:10:28,520:WARNING:C:\Users\yqyew\anaconda3\envs\mlops\Lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
+2024-08-25 22:10:28,605:WARNING:C:\Users\yqyew\anaconda3\envs\mlops\Lib\site-packages\pycaret\internal\preprocess\transformers.py:396: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X[name] = column.replace(self.to_other_[name], self.value)
+
