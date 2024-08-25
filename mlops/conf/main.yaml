@@ -1,6 +1,7 @@
 import hydra
 from omegaconf import DictConfig
 from pycaret.anomaly import *
+from pycaret.classification import *
 import pandas as pd
 
 ad_model: load_model('anomaly_detection')
