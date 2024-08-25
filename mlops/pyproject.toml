@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mlops"
+version = "0.1.0"
+description = "Prediction Tasks on Classification (Alda) and Anomaly Detection (Ying Qi)"
+authors = ["Ying Qi", "Alda"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "<2.2.0"
+flask = "^3.0.3"
+numpy = "^1.26"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

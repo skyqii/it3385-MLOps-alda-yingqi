@@ -1,0 +1,8 @@
+import hydra
+from omegaconf import DictConfig
+from pycaret.anomaly import *
+import pandas as pd
+
+ad_model: load_model('anomaly_detection')
+
+ad_data : pd.read_csv('03_transaction_records.csv')

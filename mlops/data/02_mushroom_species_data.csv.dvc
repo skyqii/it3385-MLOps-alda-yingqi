@@ -1,0 +1,5 @@
+outs:
+- md5: 9b3977cb51d5d86522e06095d1061b98
+  size: 1241871
+  hash: md5
+  path: 02_mushroom_species_data.csv
