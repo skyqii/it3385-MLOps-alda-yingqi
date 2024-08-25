@@ -32,5 +32,3 @@ DVC should be installed as an extension in Visual Studio Code.
 
 - [@skyqii](https://www.github.com/skyqii) (Ying Qi 221948R)
 - [@alda-almira](https://www.github.com/alda-almira) (Alda 224526L)
-
->>>>>>> 9f1687f5fc6c9338b8db895c17e399eeba382613
