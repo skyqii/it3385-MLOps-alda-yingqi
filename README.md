@@ -9,12 +9,12 @@ A deployment guide is a step-by-step document that outlines the process of insta
 
 Key components of a deployment guide typically include:
 
-Prerequisites: Necessary hardware, software, and network requirements.   
-Installation instructions: Detailed steps to install the application.   
-Configuration settings: Guidance on customizing the application to specific needs.
-Testing procedures: Instructions for verifying the installation and functionality.
-Troubleshooting tips: Solutions for common issues that may arise during deployment.
-Security considerations: Best practices for protecting the deployed system.
+Prerequisites: Necessary hardware, software, and network requirements.   <br>
+Installation instructions: Detailed steps to install the application.   <br>
+Configuration settings: Guidance on customizing the application to specific needs. <br>
+Testing procedures: Instructions for verifying the installation and functionality. <br>
+Troubleshooting tips: Solutions for common issues that may arise during deployment. <br>
+Security considerations: Best practices for protecting the deployed system. <br>
 
 What the project does
 
