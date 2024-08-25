@@ -19,7 +19,9 @@ DVC should be installed as an extension in Visual Studio Code.
 
 ### **Alda**
 ```bash
-  xxx
+  run python alda_flask.py
+  open the webpage to input the values for prediction
+  generate prediction to get the results
 ```
 ### **Ying Qi**
 ```bash
