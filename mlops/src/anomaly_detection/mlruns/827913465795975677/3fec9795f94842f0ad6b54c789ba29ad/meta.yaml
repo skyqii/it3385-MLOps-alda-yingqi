@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/yqyew/OneDrive/Documents/GitHub/it3385-MLOps/mlops/src/anomaly_detection/mlruns/827913465795975677/3fec9795f94842f0ad6b54c789ba29ad/artifacts
+end_time: 1724592620383
+entry_point_name: ''
+experiment_id: '827913465795975677'
+lifecycle_stage: active
+run_id: 3fec9795f94842f0ad6b54c789ba29ad
+run_name: K-Nearest Neighbors Detector
+run_uuid: 3fec9795f94842f0ad6b54c789ba29ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724592618085
+status: 3
+tags: []
+user_id: yqyew

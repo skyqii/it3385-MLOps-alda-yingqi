@@ -1,0 +1,20 @@
+2024-08-25 21:25:56,874:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:25:56,874:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:25:56,874:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:25:56,875:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:25:59,400:INFO:Initializing load_model()
+2024-08-25 21:25:59,400:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)
+2024-08-25 21:26:12,511:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:26:12,511:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:26:12,511:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:26:12,511:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-08-25 21:26:14,562:INFO:Initializing load_model()
+2024-08-25 21:26:14,562:INFO:load_model(model_name=anomaly_detection, platform=None, authentication=None, verbose=True)

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/yqyew/OneDrive/Documents/GitHub/it3385-MLOps/mlops/src/anomaly_detection/mlruns/827913465795975677/fc724830a7ec48cdaeedfd17424e64c4/artifacts
+end_time: 1724592620706
+entry_point_name: ''
+experiment_id: '827913465795975677'
+lifecycle_stage: active
+run_id: fc724830a7ec48cdaeedfd17424e64c4
+run_name: Session Initialized d5c0
+run_uuid: fc724830a7ec48cdaeedfd17424e64c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724592615311
+status: 3
+tags: []
+user_id: yqyew
