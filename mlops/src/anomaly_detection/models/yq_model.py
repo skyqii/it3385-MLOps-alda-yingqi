@@ -20,6 +20,9 @@ data['MERCHANT'] = data['MERCHANT'].apply(lambda x: x.upper())
 from pycaret.anomaly import * 
 s = setup(data,  
           ignore_features = ['DEPT_NAME', 'FISCAL_YR', 'FISCAL_MTH'], 
+          rare_to_value=0.1,
+          log_experiment=True,
+          experiment_name='221948R_anomaly_detection',
           session_id = 123) 
  
 # build the model 
